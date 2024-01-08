@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background_image.jpg'); /* Background image */
+    background-size: cover;
+    color:black; /* Text color */
+  }
+  
+  /* Header Styles */
+  .top-header {
+    background-color: #070908; /* Header background color */
+    text-align: center;
+    color: white; /* Text color */
+    padding: 20px;
+  }
+  
+  /* Footer Styles */
+  .bottom-footer {
+    background-color: #070908; /* Footer background color */
+    text-align: center;
+    color: white; /* Text color */
+    padding: 10px 0;
+  }
+  
+  /* Main Content Styles */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); /* Adjust based on header and footer height */
+  }
+  
+  .intro-section {
+    background-color: rgba(220, 242, 196, 0.8); /* Semi-transparent white background for section */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-column {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 150px; /* Profile picture size */
+    border-radius: 50%; /* To make it round */
+    margin-bottom: 10px;
+  }
+  
+  .right-column {
+    flex-grow: 1;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .icon-link {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .icon-link img {
+    width: 30px; /* Adjust social media icon size */
+    height: 30px;
+  }
+  
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: calc(100vh - 100px); /* Adjust based on header and footer height */
+    /* padding: 20px; */
+
+  }
+  
+  .side-nav {
+    background-color:black; /* Side navigation background color */
+    color:white; /* Text color */
+    /* width: 200px; */
+    margin: 30px;
+  }
+  
+  .side-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-nav li {
+    padding: 30px;
+  }
+  
+  .side-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .side-nav a:hover {
+    color: #2d6eb3; /* Hover color */
+  }
